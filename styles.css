@@ -1,0 +1,171 @@
+html{
+    background-color: #d6cfd8;
+}
+
+*{
+    font-family:'Roboto', sans-serif;
+}
+.container-main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-header{
+    display: flex;
+    justify-content: center;
+    max-width: 878px;
+}
+#header{
+    
+    font-size: 24px;
+    font-weight: 700;
+    justify-self: center;
+}
+
+
+.container-body{
+    display: flex;
+    max-width: 878px;
+    max-height: 800px;
+    background-color: #f0b4d7;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+.container-buttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-right: 2px solid #f5cbe0;
+    padding-right: 3px;
+    gap: 50px;
+}
+
+.container-color-buttons{
+    max-width: 75px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:1 0 Auto;
+   
+}
+
+.container-color-buttons button{
+    border-radius: 6px;
+    padding: 5px 10px; 
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    margin: 10px 0px
+}
+
+#colors-header{
+    font-size: 16px;
+    align-self: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+#new-game{
+    background-color: #d6cfd8;
+    border-radius: 6px;
+    padding: 5px 10px; 
+    border: 0px;
+    display: flex;
+    justify-content: center;
+    align-self: stretch;
+}
+
+
+#header{
+    font-size: 16px;
+}
+
+
+#black{
+    background-color: #000000;
+    color: #f0ffff;
+}
+
+#pink{
+    background-color: #ffc0cb;
+    color: #f0ffff;
+}
+
+#red{
+    background-color: #ff0000;
+    color: #f0ffff;
+}
+
+#blue{
+    background-color: #0000ff;
+    color: #f0ffff;
+}
+
+#green{
+    background-color: #008000;
+    color: #f0ffff;
+}
+
+#brown{
+    background-color: #8d470e;
+    color: #f0ffff;
+}
+
+#yellow{
+    background-color: rgb(255, 207, 51);
+    color: #f0ffff;
+}
+
+#rainbow{
+    background-color: #9a7be7;
+    color: #f0ffff;
+}
+
+
+#eraser{
+    background-color: #ffffff;
+    color: #f0b4d7;
+}
+
+.container-eraser{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.container-eraser img{
+    display: flex;
+    align-self: center;
+    flex:none;
+}
+
+.container-grid{
+    height: 800px;
+    width: 800px;
+    margin-left: 3px;
+
+    display:flex;
+    flex-direction: column;
+}
+
+
+.column{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    flex: auto;
+    flex-direction: row;
+}
+
+.row{
+    display:flex;
+    margin: 0px;
+    padding: 0px;
+    /*border: 1px solid #000000;*/
+    flex: auto;
+    background-color: hwb(0 100% 0%);
+}
+
